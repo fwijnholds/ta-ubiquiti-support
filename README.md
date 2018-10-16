@@ -19,6 +19,7 @@ TRANSFORMS-changesourcetypes = sourcetype-hostapd, sourcetype-mcad, index-mcad, 
 - Select any ubqt sourcetype ie ubqt:fw, change settings to your liking with the exception of indexes. Or manually create inputs.conf 
 
 [udp://8514]
+
 connection_host = ip
 sourcetype = ubqt
 index=ubqt
