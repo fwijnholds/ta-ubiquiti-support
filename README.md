@@ -15,7 +15,7 @@ Place transforms.conf in the ta-ubiquiti/local directory.
 Add following line to ta-ubiquiti/local/props.conf
 
 [default] 
-TRANSFORMS-changesourcetypes = sourcetype-hostapd, sourcetype-mcad, index-mcad, sourcetype-sudo, index-mcad, sourcetype-dhcp, index-dhcp, sourcetype-fw, index-fw, sourcetype-threat, index-threat
+TRANSFORMS-changeindex = index-mcad, index-mcad, index-dhcp, index-fw, index-threat
 
 Download and install the ubqt_indexes.tar
 https://github.com/fwijnholds/ta-ubiquiti-support/blob/master/org_all_indexes.tar.gz
