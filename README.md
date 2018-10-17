@@ -18,7 +18,7 @@ Add following line to ta-ubiquiti/local/props.conf
 TRANSFORMS-changeindex = index-mcad, index-mcad, index-dhcp, index-fw, index-threat
 
 Download and install the ubqt_indexes.tar
-https://github.com/fwijnholds/ta-ubiquiti-support/blob/master/org_all_indexes.tar.gz
+https://github.com/fwijnholds/ta-ubiquiti-support/blob/master/org_all_indexes.spl
 
 Restart splunk
 
