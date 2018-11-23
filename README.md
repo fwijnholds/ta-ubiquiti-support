@@ -1,4 +1,4 @@
-# Installing and configuring Ubiquito add-on for Splunk
+# Installing and configuring Ubiquiti add-on for Splunk
 
 To use this TA with Enterprise Security some configuration is required. Datamodel acceleration at scale requires from the deployment that data is assigned to indexes by it's cardinality. As Sourcetype is assigned by input in Splunk there are 2 ways achieving this split. One is using transforms.conf in conjuction with a props.conf, the other is by having an intermediate like a syslog server do the splitting into files. A UF can assign sourcetype input.
 
