@@ -6,8 +6,8 @@ Which method you chose (even non documented ones) make sure the input is assigne
 
 [udp://8514]
 connection_host = ip 
-sourcetype = ubqt 
-index=ubqt
+sourcetype = ubnt 
+index=ubnt
 
 All transforms will look for this sourcetype, the TA won't work as expected if you name the source differently. 
 
@@ -40,8 +40,8 @@ Select any ubqt sourcetype ie ubqt:fw, change settings to your liking with the e
 
 [udp://8514]
 connection_host = ip 
-sourcetype = ubqt 
-index=ubqt
+sourcetype = ubnt 
+index=ubnt
 
 ## Method 2:
 
