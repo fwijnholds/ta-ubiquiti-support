@@ -25,7 +25,7 @@ This file holds the configuration which rewrites the sourcetype based on a pater
 Place transforms.conf in the ta-ubiquiti/local directory.
 Place props.conf in the ta-ubiquiti/local directory.
 
-Download and install the ubqt_indexes.spl
+Download the ubqt_indexes.spl and install this on your indexers. 
 https://github.com/fwijnholds/ta-ubiquiti-support/blob/master/org_all_indexes.spl
 
 note: This contains a standard set of indexes, the Splunk best practice for CIM you will note that it separates OS logs from Network logs and Security logs from Application logs. The idea here is to separate them for performance reasons, but also for isolation purposes-you may want to expose the application or system logs to people who shouldn't view security logs. Putting them in separate indexes prevents that.
