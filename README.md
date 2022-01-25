@@ -1,5 +1,7 @@
 # Installing and configuring Ubiquiti add-on for Splunk
 
+[![Git](https://app.soluble.cloud/api/v1/public/badges/dd167b40-49d1-432a-b5a6-4afcfa5f62d3.svg?orgId=603790862731)](https://app.soluble.cloud/repos/details/github.com/fwijnholds/ta-ubiquiti-support?orgId=603790862731)  
+
 To use this TA with Enterprise Security some configuration is required. Datamodel acceleration at scale requires from the deployment that data is assigned to indexes by it's cardinality. As Sourcetype is assigned by input in Splunk there are 2 ways achieving this split. One is using transforms.conf in conjuction with a props.conf, the other is by having an intermediate like a syslog server do the splitting into files. A UF can assign sourcetype input.
 
 Which method you chose (even non documented ones) make sure the input is assigned the ubnt sourcetype! 
